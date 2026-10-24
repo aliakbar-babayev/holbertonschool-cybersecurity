@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -p "$1"  | chown :"$2" "$1" | chmod 3775 "$1"  
+mkdir -p /shared/devs && chown root:developers /shared/devs && chmod 2770 /shared/devs && chmod +t /shared/devs
