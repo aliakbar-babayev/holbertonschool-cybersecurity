@@ -1,1 +1,1 @@
-# holbertonschool-cybersecurity
+cybersecurity
