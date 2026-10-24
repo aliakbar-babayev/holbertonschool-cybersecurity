@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l $1 | awk '{print$3}' | sort | uniq -c | sort -r | head -1 
+ls -l $1 | awk '{print $3}' | sort | uniq -c | sort -r | head -1 
