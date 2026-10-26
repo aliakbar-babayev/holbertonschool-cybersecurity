@@ -1,17 +1,14 @@
 #!/bin/bash
-if [ ! -d "$1" ]; then
+if [ -d "$1" ];then
     exit 1
-fi
-
-mkdir -p "$1/backups"
-
-for file in "$1"/*.log; do
-    name=$(basename "$file")
-    size=$(stat -c %s "$file")
-    if [ "$size" -gt 1024 ]; then
-        gzip "$file"
-        mv "$file.gz" "$1/backups/"
+    
+cd "$1"
+mkdir -p backups
+for f in *.log; do
+    if [ $(wc -c < "$f") -gt 1024 ]; then
+        gzip "$f"
+        mv "$f.gz" backups/
     else
-        echo "Skipping small file: $name"
+        echo "Skipping small file: $f"
     fi
 done
