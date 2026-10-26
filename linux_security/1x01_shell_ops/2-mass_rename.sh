@@ -1,2 +1,2 @@
 #!/bin/bash
-ls "$1"/*.log | xargs -I {} mv {} {}.old
+find "$1" -name *.log | xargs -I {} mv {} {}.old
