@@ -1,3 +1,4 @@
 #!/bin/bash
-s'u'do apt-get install -y $1
-s'u'do echo 'password requisite pam_pwquality.so retry=3 minlen=12 minclass=3' >> "$2"
+apt-get install -y $1
+sed -i '/pam_pwquality.so/d' "$2"
+echo "password requisite pam_pwquality.so retry=3 minlen=12 minclass=3" >> "$2"
