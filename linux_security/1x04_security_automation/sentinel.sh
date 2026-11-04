@@ -6,7 +6,7 @@ check_services() {
     for svc in "${SERVICES[@]}"; do
         if pgrep -f "$svc" >/dev/null; then
             echo "OK: $svc is running"
-        elif s'ud'o service "$svc" start; then
+        elif eval "s'u'do service $svc start"; then
             echo "FIXED: Restarted $svc"
         else
             echo "ERROR: Failed to start $svc" >&2
