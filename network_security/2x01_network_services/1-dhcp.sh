@@ -1,2 +1,2 @@
 #!/bin/bash
-grep lease /var/lib/dhcp/*.leases | grep -v '#' | awk '{print$2}'
+nmcli -t -f DHCP4.OPTION device show | grep -m 1 'dhcp_server_identifier' | cut -d'=' -f2
