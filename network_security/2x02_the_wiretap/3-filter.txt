@@ -1,0 +1,1 @@
+ip.addr == 10.10.10.50 || arp.src.proto_ipv4 == 10.10.10.50 || arp.dst.proto_ipv4 == 10.10.10.50
