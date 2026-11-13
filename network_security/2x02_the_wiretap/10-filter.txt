@@ -1,1 +1,1 @@
-dns.qry.name contains "darknet-c2"
+dns.flags.response == 0
