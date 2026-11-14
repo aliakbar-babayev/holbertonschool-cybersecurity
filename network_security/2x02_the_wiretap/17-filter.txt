@@ -1,0 +1,1 @@
+ftp.response.code == 230 || ftp.response.code == 530
