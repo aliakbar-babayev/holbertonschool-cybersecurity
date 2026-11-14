@@ -1,1 +1,1 @@
-hello
+ip address, port numbers, version
