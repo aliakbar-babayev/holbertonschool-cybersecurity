@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo nmap -sS "$1"
+sudo nmap -sS -p22,23,80 "$1"
