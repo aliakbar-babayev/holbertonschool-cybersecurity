@@ -1,2 +1,2 @@
 #!/bin/bash
-tshark -r "$1" -Y "http.request.method == POST" -T fields  -e urlencoded-form.value | cut -d',' -f2
+tshark -r "$1" -Y 'http.request.uri matches "(?i)(union|select)"' -T fields -e http.request.uri
