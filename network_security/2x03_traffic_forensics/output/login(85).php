@@ -1,0 +1,1 @@
+<html><body><h1>Welcome, Administrator</h1><p>Dashboard loaded.</p><!-- FLAG{w3lc0m3_t0_th3_d4shb0ard} --></body></html>

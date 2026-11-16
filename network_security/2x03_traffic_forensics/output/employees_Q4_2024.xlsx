@@ -1,0 +1,19 @@
+ACME Corp - Employee Database Q4 2024
+CONFIDENTIAL - DO NOT DISTRIBUTE
+FLAG{th3_w1r3_n3v3r_l13s}
+
+ID,Name,Email,Department,Salary,SSN
+1,John Doe,jdoe@acme-corp.com,Engineering,85000,123-45-6789
+2,Jane Smith,jsmith@acme-corp.com,Finance,92000,987-65-4321
+3,Bob Wilson,bwilson@acme-corp.com,Marketing,78000,456-78-9012
+4,Alice Brown,abrown@acme-corp.com,Engineering,105000,321-54-9876
+5,Charlie Davis,cdavis@acme-corp.com,HR,71000,654-87-2109
+6,Eve Johnson,ejohnson@acme-corp.com,Security,88000,789-01-2345
+7,Frank Miller,fmiller@acme-corp.com,Operations,67000,234-56-7890
+8,Grace Lee,glee@acme-corp.com,Engineering,95000,567-89-0123
+9,Henry Park,hpark@acme-corp.com,Finance,82000,890-12-3456
+10,Iris Chen,ichen@acme-corp.com,Engineering,110000,345-67-8901
+
+Total Records: 10
+Generated: 2024-02-01
+FLAG{3xf1ltr4t10n_c0mpl3t3_g4m3_0v3r}
