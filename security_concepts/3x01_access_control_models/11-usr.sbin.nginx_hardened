@@ -1,0 +1,9 @@
+/usr/sbin/nginx {
+/usr/sbin/nginx r,
+/etc/nginx/** r,
+/var/log/nginx/** w,
+/opt/securehealth/plugin.conf r,
+/opt/securehealth/data/** r,
+network inet stream,
+network inet dgram,
+}
